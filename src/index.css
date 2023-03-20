@@ -1,0 +1,87 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.board-row{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  
+}
+.calcButton {
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  height: 85px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 100%;
+  
+}
+
+
+.wrapper {
+  width: 340px;
+  height: 540px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #BBC6C8;
+  margin: auto;
+  
+}
+
+
+.screen {
+  font-size: 24px;
+  font-weight: bold;
+  height: 75px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #4357692d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  
+}
+
+.screen2 {
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #4357692d;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #E5E3E4;
+  font-weight: bold;
+  box-sizing: border-box;
+  
+}
+
+button {
+  border: none;
+  background-color: #E5E3E4;
+  color: #5BA199;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+button:hover {
+  background-color: #DDBEAA;
+}
+
+
+
+
